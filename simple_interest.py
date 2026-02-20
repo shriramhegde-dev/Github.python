@@ -1,0 +1,8 @@
+print("print principle")
+principle=float(input("principle"))
+print(" print rate")
+rate=float(input("rate"))
+print("print time")
+time=float(input("time"))
+simple_interest=((principle*rate*time)/100)
+print(f"simple interest is {simple_interest}")
