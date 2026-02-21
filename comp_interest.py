@@ -1,0 +1,11 @@
+# A simple python program that calculates compound interest
+print("please enter principle deposit")
+principle_deposit=float(input(" enter principle_deposit here"))
+print("please enter annual interest rate")
+annual_interest_rate=float(input("enter annual interest rate here "))
+print("please enter number of compounding periods")
+number_of_compounding_periods=float(input("enter number of compounding periods"))
+print("please enter the time")
+time=float(input("enter time hear"))
+final_amt=principle_deposit*(1+(annual_interest_rate/number_of_compounding_periods)*(number_of_compounding_periods*time))
+print(f" final_amt is {final_amt}")
